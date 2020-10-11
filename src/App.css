@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Container{
+  border: 5px black ;
+  background-color: lightcoral;
+  align-items: center;
+
+}
+
+.InputRow{
+  display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.InputLabel{
+  width: 50%;
+  margin: 340px;
+  padding: 20px;
+  font-size: 24px;
+  /* margin-bottom: 2px; */
+}
+.AppTitle{
+  background-color: light;
+  font-size: 34px;
+  text-align: center;
+
+}
+.Results{
+  background-color:rgb(255, 112, 60);
+  vertical-align: middle;
+  padding-top:4px;
+  width: 730px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 355px;
+  font-size: 24px;
+  border-radius: 10px;
+  padding-left: 5px;
+  color :black;
+}
+.ResultImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.SubmitBtn{
+  font-size: 16px;
+  background-color:blue;
+  color: whitesmoke;
+  width: 100px;
+  height: 40px;
+  border: black 2 px;
+  border-radius: 10px; 
+  margin-left: 355px;
+  margin-top: auto;
+  margin-bottom: 15px;
+}
