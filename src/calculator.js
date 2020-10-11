@@ -67,7 +67,7 @@ class Calculator extends React.Component{
         <h1 className="Results">Your BMI is {Math.round(this.state.bmi * 100) / 100}</h1>
         {/* <h1>your height is {this.state.height}</h1>
         <h1>your weight is {this.state.weight}</h1> */}
-        <img src={require('./bmi2.jpg')} className="ResultImg" />
+        <img src={require('./bmi2.jpg')} className="ResultImg" alt="result-img" />
             </div>
         )
     }
